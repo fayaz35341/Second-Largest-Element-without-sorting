@@ -14,5 +14,20 @@ class Solution:
         if SL==0:
             return '-1'
         return SL  
+
+# class Solution:
+#     def getSecondLargest(self, arr):
+#         # Code Here
+#         L=float('-inf')
+#         SL=float('-inf')
+#         for x in arr:
+#             if x>L:
+#                 SL=L 
+#                 L=x
+                
+#             elif L>x >SL:
+#                     SL=x
+            
+#         return '-1' if SL==float('-inf') else SL
 n=[8, 8, 7, 6, 5]
 print(Solution().largestElement(n))
