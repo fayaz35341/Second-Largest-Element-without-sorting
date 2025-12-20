@@ -14,6 +14,9 @@ class Solution {
         if (SL===0){
             return '-1'
         }
+        else if (L>nums[i+1]>SL){ 
+            SL=nums[i+1]
+        }
         return SL
     }
 }
